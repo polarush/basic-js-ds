@@ -4,9 +4,9 @@
   "description": "Tasks for RSS",
   "main": "index.js",
   "directories": {
-    "test": "test",
-    "type": "module"
+    "test": "test"
   },
+
   "scripts": {
     "test": "mocha"
   },
