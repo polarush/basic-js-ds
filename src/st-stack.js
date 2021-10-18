@@ -14,6 +14,7 @@ import { NotImplementedError } from '../extensions/index.js';
  */
 //throw new NotImplementedError('Not implemented');
 // remove line with error and write your code here
+
 export default class Stack {
   
   res = []
@@ -27,7 +28,6 @@ export default class Stack {
       return undefined;
     } 
     this.res.pop(element)
-    
   }
 
   peek() {
